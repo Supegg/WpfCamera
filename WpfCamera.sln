@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCamera", "WpfCamera\WpfCamera.csproj", "{8DD39EE0-89B9-4F62-AD95-4796301E6972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF MediaKit", "WPFMediaKit\WPF MediaKit.csproj", "{73154957-3D91-48DA-8068-D425B523ED93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectShowLib-2005", "DirectShowLib\DirectShowLib-2005.csproj", "{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD39EE0-89B9-4F62-AD95-4796301E6972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD39EE0-89B9-4F62-AD95-4796301E6972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD39EE0-89B9-4F62-AD95-4796301E6972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD39EE0-89B9-4F62-AD95-4796301E6972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73154957-3D91-48DA-8068-D425B523ED93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE009BFA-5EF6-4153-B2A1-2FA79698A9AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfCamera.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wpfmedia="clr-namespace:WPFMediaKit.DirectShow.Controls;assembly=WPFMediaKit"
+        Title="TakeAPhoto" Height="600" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <ComboBox Name="cb" SelectionChanged="cb_SelectionChanged" Width="100" ></ComboBox>
+                <Button  Width="80"  Content="拍" Name="btnCapture" Click="btnCapture_Click" Margin="200,0,0,0"></Button>
+                <Button  Width="80"  Content="重拍" Name="btnReStart" Click="Restart_Click"></Button>
+            </StackPanel>
+            <StackPanel Height="480" Width="640" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0">
+                <wpfmedia:VideoCaptureElement x:Name="vce" Height="480" Width="640" Stretch="None" RenderTransformOrigin="0,0"  >
+                    <wpfmedia:VideoCaptureElement.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="0"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </wpfmedia:VideoCaptureElement.RenderTransform>
+                </wpfmedia:VideoCaptureElement>
+
+            </StackPanel>
+
+        </StackPanel>
+    </Grid>
+</Window>
